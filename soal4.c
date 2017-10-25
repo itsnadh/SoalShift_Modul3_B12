@@ -18,18 +18,36 @@ return hasil;
 }
 
 int status =0;
+void* show (void *arg){
+    int a,b;
+    pthread_t id= pthread_self();
+    for (a=1 ; a<=; a++){
+        if(pthread_equal(id,tid[i])){
+            while(status != a-1);
+            {
+ 
+            }
+                faktorial(i);
+            break;
+        }
+    }
+    status =i;
 
-/*int main()
+int main()
 {
-    int i,j;
+    int i,j,n;
 while(1){
     scanf ("%d%c", &i,&j);
+    while("%c"=='\n'){
+break;
+	}
+}
 
-    for ( i=1; i<=T; i++){
-        pthread_create (&tid[i], NULL, &tampilkan, NULL);
+    for ( i=1; i<=j; i++){
+        pthread_create (&tid[i], NULL, &show, NULL);
     }
  
-    for (i=1; i<=T; i++){
+    for (i=1; i<=j; i++){
         pthread_join (tid[i],NULL); 
     }
  
